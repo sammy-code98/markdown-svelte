@@ -20,14 +20,15 @@
 
 <style>
   .header {
-        height: 10vh;
+        height: 5vh;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin: 20px;
     }
 
     .header-title {
-        margin: 0;
+        margin: 10px;
     }
 
     .markdown-editor {
