@@ -1,7 +1,9 @@
 <script>
   import { marked } from "marked";
   let source = `# New Document`;
-  let markdown = marked(source) 
+  // let markdown = marked(source) 
+// reactive element
+  $: markdown = marked(source)
 
 </script>
 <header class="header">
@@ -57,11 +59,7 @@
 
     .markdown-editor_output {
         width: 100%;
-       
-
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
     }
-  }
+
+  
 </style>
